@@ -1,0 +1,27 @@
+.button {
+  font: var(--body1-bold);
+  color: var(--primary);
+  padding-block: .75rem;
+  padding-inline: 2rem;
+  background: rgba(255, 142, 60, 0.1);
+  border: none;
+  outline: none;
+  border-radius: 5.625rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--grey);
+  color: var(--white);
+  transition: all .15s linear;
+}
+
+.button.is-primary {
+  color: var(--white);
+  background: var(--black);
+}
+
+.button.is-primary:hover {
+  background: var(--grey);
+  transition: all .15s linear;
+}

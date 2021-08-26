@@ -1,0 +1,38 @@
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  justify-content: center;
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
+}
+
+.text-container h1 {
+  font: var(--headline1);
+  font-size: 1.75rem;
+}
+
+.text-container p {
+  font: var(--body1-regular);
+  color: var(--grey);
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .text-container {
+    align-items: flex-start;
+    justify-content: center;
+    margin-block-start: 5rem;
+    margin-block-end: 5rem;
+    inline-size: 42rem;
+    gap: 1rem;
+  }
+
+  .text-container h1 {
+    font: var(--headline1);
+  }
+
+  .text-container p {
+    font: var(--body1-regular);
+  }
+}
