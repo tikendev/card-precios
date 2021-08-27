@@ -78,6 +78,7 @@
 
 .card3 .more-popular {
   font-size: 12px;
+  font-weight: 600;
   text-align: center;
   background:#FFD5B6;
   inline-size: 121px;
@@ -86,6 +87,7 @@
   border-radius: .875rem;
   padding-block: .375rem;
   padding-inline: 1.125rem;
+
 }
 
 .card3 p {
